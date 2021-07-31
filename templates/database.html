@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<table>
+    <tbody>
+        {% for row in data %}
+            <tr>
+                <td>{{row.code}}</td>
+                <td>{{row.name}}</td>
+                <td>{{row.type}}</td>
+                <td>{{row.price}}</td>
+                <td>{{row.supplier}}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
